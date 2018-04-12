@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_your_story"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/your_story"/>
+        <item
+            android:id="@+id/nav_her_story"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="@string/her_story"/>
+        <item
+            android:id="@+id/nav_social_story"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="@string/social_story"/>
+        <item
+            android:id="@+id/nav_ys_tv"
+            android:icon="@drawable/ic_desktop_mac_black_24dp"
+            android:title="@string/ys_tv"/>
+
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/community"/>
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="@string/night_mode"
+                />
+            <item
+                android:id="@+id/nav_send"
+                android:title="@string/bookmarks"/>
+        </menu>
+    </item>
+
+</menu>
